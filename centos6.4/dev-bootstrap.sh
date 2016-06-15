@@ -28,3 +28,4 @@ echo 'pathmunge /usr/share/maven/bin' > /etc/profile.d/maven.sh
 chmod +x /etc/profile.d/maven.sh
 
 echo 'Ambari Development VM has been set up! Enjoy!'
+echo 'never' > /sys/kernel/mm/redhat_transparent_hugepage/defrag
