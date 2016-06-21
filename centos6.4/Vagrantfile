@@ -5,6 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 $gw_script = <<SCRIPT
+# instruction & url picked from https://cwiki.apache.org/confluence/display/AMBARI/Quick+Start+Guide
 wget -O /etc/yum.repos.d/ambari.repo http://s3.amazonaws.com/dev.hortonworks.com/ambari/centos6/2.x/latest/trunk/ambaribn.repo
 yum install ambari-server -y
 ambari-server setup -s
